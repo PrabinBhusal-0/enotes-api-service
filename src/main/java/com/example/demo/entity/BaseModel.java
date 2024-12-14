@@ -14,7 +14,7 @@ import org.hibernate.annotations.CreationTimestamp;
 @MappedSuperclass
 public class BaseModel {
 	
-private Boolean isActive;
+	private Boolean isActive;
 	
 	private Boolean isDeleted;
 	
