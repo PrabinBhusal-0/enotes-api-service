@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface CategoryService {
 
-    public Boolean saveCategory(CategoryDto categoryDto);
+    public Boolean  saveCategory(CategoryDto categoryDto);
 
     public List<CategoryDto> getAllCategory();
 
